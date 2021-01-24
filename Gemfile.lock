@@ -102,9 +102,15 @@ GEM
       rack-protection
     omniauth-facebook (8.0.0)
       omniauth-oauth2 (~> 1.2)
+    omniauth-github (2.0.0)
+      omniauth (~> 2.0)
+      omniauth-oauth2 (~> 1.7.1)
     omniauth-oauth2 (1.7.1)
       oauth2 (~> 1.4)
       omniauth (>= 1.9, < 3)
+    omniauth-rails_csrf_protection (1.0.0)
+      actionpack (>= 4.2)
+      omniauth (~> 2.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -189,6 +195,8 @@ DEPENDENCIES
   jquery-rails
   omniauth
   omniauth-facebook
+  omniauth-github
+  omniauth-rails_csrf_protection
   pry
   rails (~> 5.0)
   sass-rails (~> 5.0)
